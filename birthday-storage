@@ -1,0 +1,25 @@
+#birthday storage
+print("Hello, and welcome to the BirthdayStorage!")
+aChoice=input("Would you like to store a birthday? ")
+if aChoice == ("no"):
+  print("Okay, Bye!")
+if aChoice == ("yes"):
+  birthday1=input("Input birthday 1: ")
+  birthdayname1=input("Input name 1: ")
+  birthday2=input("Input birthday 2: ")
+  birthdayname2=input("Input name 2: ")
+  birthday3=input("Input birthday 3: ")
+  birthdayname3=input("Input name 3: ")
+  birthday4=input("Input birthday 4: ")
+  birthdayname4=input("Input name 4: ")
+  birthday5=input("Input birthday 5: ")
+  birthdayname5=input("Input name 5: ")
+  theChoice=input("Do you want to print out these birthdays?")
+if theChoice == ("yes"):
+  print (birthday1,"is",birthdayname1,"s birthday.")
+  print (birthday2,"is",birthdayname2,"s birthday.")
+  print (birthday3,"is",birthdayname3,"s birthday.")
+  print (birthday4,"is",birthdayname4,"s birthday.")
+  print (birthday5,"is",birthdayname5,"s birthday.")
+if theChoice == ("no"):
+  print("Okay, Bye!")
