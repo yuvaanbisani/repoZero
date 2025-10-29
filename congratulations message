@@ -1,0 +1,4 @@
+#congratulations message in python
+message1=("c")
+message2=("ongratulations!")
+print(message1.upper() + message2)
