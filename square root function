@@ -1,0 +1,4 @@
+#square root function
+root = input("input a number to be square rooted:")
+Root=int(root)
+print(Root ** 0.5)
