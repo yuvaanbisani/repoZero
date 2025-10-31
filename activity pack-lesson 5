@@ -1,0 +1,41 @@
+#conditional statements
+num1 = (int(input("Enter a number : ")))
+if num1 > 0:
+    print("the number is positive")
+elif num1 < 0:
+    print("the number is negative")
+else:
+    print("the number is zero")
+
+age = (int(input("enter age :")))
+if age > 18:
+    print ("you are elligible to vote.")
+else:
+    print("wait here.")
+
+
+#profit and loss
+actualCost=float(input("Please enter the actual cost of the product : "))
+saleAmount = float(input("Enter the sale amount : "))
+if saleAmount > actualCost:
+    print("total profit =", saleAmount-actualCost)
+else:
+    print("no profit :(")
+
+
+#greater or smaller than 15
+num = (int(input("Enter a number : ")))
+if (num < 15):
+    print("the number is smaller than 15.")
+if (num > 15):
+    print("the number is bigger than 15.")
+
+
+#odd or even
+num = (int(input("input a number : ")))
+if num%2 == 0:
+    print("this is an even number")
+else:
+    print("this is an odd number")
+
+#end
