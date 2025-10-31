@@ -1,0 +1,20 @@
+#weather checker
+weather = (float(input("(in celsius) The weather is : ")))
+if weather <= 0.0:
+    print("Potential frostbite and/or hypothermia if not wearing proper clothes, so do NOT wear light clothes.")
+elif weather <= 10.0:
+    print("Potential shivering if not wearing proper clothes, so it is advised that you do not wear light clothes.")
+elif weather <= 18.0:
+    print("Potential chance to wear a light outfit, otherwise, don't wear light clothes. ")
+elif weather <= 24.0:
+    print("You can wear light clothes at this weather.")
+elif weather <= 29.0:
+    print("You can also wear light clothes at this weather.")
+elif weather <= 35.0:
+    print("It is probably not advised to wear light clothes at this weather.")
+elif weather <= 40.0:
+    print("Potential chance of heat exhaustion if you wear light clothes.")
+elif weather >= 40.1:
+    print("Potential heatstroke or medical emergency if you wear light clothes.")
+elif weather >= 45.0:
+    print("It is advised that you do not go outside if the weather is that high, so absolutely do NOT wear light clothes.")
