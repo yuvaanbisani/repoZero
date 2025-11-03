@@ -1,0 +1,16 @@
+#1 example for and
+a = 10
+b= 100
+c=1
+if a and b and c:
+    print("all numbers have boolean value True")
+else:
+    print("at least one number has boolean value False")
+#or example
+x = 0
+y = 0
+z = 0
+if x or y or z:
+    print("at least one number has boolean value True")
+else:
+    print("all numbers have boolean value False")
