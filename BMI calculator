@@ -1,0 +1,14 @@
+height = (float(input("INput your height in cm : ")))
+weight = (float(input("enter your weight in kgs : ")))
+BMI = weight / (height/ 100)**2
+print("your BMI is : ", BMI)
+if BMI <= 18.4:
+    print("You are underweight")
+elif 18.5 <= BMI <= 24.9:
+    print("You have a normal weight")
+elif 25 <= BMI <= 29.9:
+    print("You are overweight")
+elif 30 <= BMI <= 34.9:
+    print("You have obesity class I")
+else:
+    print("You are severely obese")
