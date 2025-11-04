@@ -1,0 +1,39 @@
+#identity opraters
+x = 5
+if (type (x) is int):
+    print("true")
+else:
+    print("false")
+y = 5.0
+if (type (y) is not float):
+    print("true")
+else:
+    print("false")
+z = 67
+if z is None:
+    print("Z has no value")
+else:
+    print("Z has a value")
+a = True
+if a is True:
+    print("A is true")
+else:
+    print("it is false")
+m = ("hello")
+n = ("hello")
+print(m is n)
+print(id (m))
+print(id (n))
+#membership operater
+toys = ["legos", "kits", "puzzles", "dolls"]
+print("cars" in toys)
+print("cars" not in toys)
+
+#bitwise
+a = 10
+b = -10
+print("a>>  1= ,", a>>1)
+print("b>>  1 =,", b>>1)
+print("a<<1 =", a<<1)
+print("b<<1 =", b<<1)
+
