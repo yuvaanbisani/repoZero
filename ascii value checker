@@ -1,0 +1,4 @@
+#ascii maker
+input = str(input("Enter only one string : "))
+ascii_value = ord(input)
+print(f"The ASCII value of '{input}' is {ascii_value}.")
