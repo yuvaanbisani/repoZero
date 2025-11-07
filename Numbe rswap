@@ -1,0 +1,7 @@
+#numberswap
+wrongequation = str(2-3+4)
+part1 = wrongequation[0:2:1]
+part2 = wrongequation[2:4:2]
+part3 = wrongequation[4:6:3]
+rightequation=(part3-part2+part1)
+print(rightequation)
